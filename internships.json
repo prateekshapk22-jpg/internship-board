@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer Intern",
+    "company": "NovaTech Labs",
+    "domain": "Web Development",
+    "location": "Remote",
+    "type": "Part-time",
+    "duration": "3 months",
+    "description": "Build responsive interfaces and reusable UI components using HTML, CSS and JavaScript.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "applyUrl": "https://example.com"
+  },
+  {
+    "id": 2,
+    "title": "Python Developer Intern",
+    "company": "CodeNest",
+    "domain": "Software Development",
+    "location": "Coimbatore",
+    "type": "Full-time",
+    "duration": "4 months",
+    "description": "Work on Python automation, APIs and small backend services with a development team.",
+    "tags": [
+      "Python",
+      "API",
+      "Backend"
+    ],
+    "applyUrl": "https://example.com"
+  },
+  {
+    "id": 3,
+    "title": "AI/ML Intern",
+    "company": "Insight AI",
+    "domain": "Artificial Intelligence",
+    "location": "Remote",
+    "type": "Part-time",
+    "duration": "3 months",
+    "description": "Assist with data preparation, model experiments and evaluation for practical AI projects.",
+    "tags": [
+      "AI",
+      "Machine Learning",
+      "Python"
+    ],
+    "applyUrl": "https://example.com"
+  },
+  {
+    "id": 4,
+    "title": "Data Analyst Intern",
+    "company": "DataSpring",
+    "domain": "Data Science",
+    "location": "Bengaluru",
+    "type": "Full-time",
+    "duration": "6 months",
+    "description": "Explore datasets, create dashboards and communicate insights to business teams.",
+    "tags": [
+      "Python",
+      "Pandas",
+      "SQL"
+    ],
+    "applyUrl": "https://example.com"
+  },
+  {
+    "id": 5,
+    "title": "IoT Engineering Intern",
+    "company": "ConnectGrid",
+    "domain": "IoT",
+    "location": "Chennai",
+    "type": "Full-time",
+    "duration": "4 months",
+    "description": "Prototype sensor-based solutions and connect embedded devices to cloud services.",
+    "tags": [
+      "IoT",
+      "Sensors",
+      "Cloud"
+    ],
+    "applyUrl": "https://example.com"
+  },
+  {
+    "id": 6,
+    "title": "Cloud Engineering Intern",
+    "company": "SkyStack",
+    "domain": "Cloud Computing",
+    "location": "Remote",
+    "type": "Part-time",
+    "duration": "3 months",
+    "description": "Learn cloud deployment workflows, storage, monitoring and basic infrastructure practices.",
+    "tags": [
+      "Cloud",
+      "Deployment",
+      "DevOps"
+    ],
+    "applyUrl": "https://example.com"
+  },
+  {
+    "id": 7,
+    "title": "Java Software Intern",
+    "company": "BrightByte",
+    "domain": "Software Development",
+    "location": "Hyderabad",
+    "type": "Full-time",
+    "duration": "5 months",
+    "description": "Develop and test Java features while learning clean coding and version-control practices.",
+    "tags": [
+      "Java",
+      "Git",
+      "OOP"
+    ],
+    "applyUrl": "https://example.com"
+  },
+  {
+    "id": 8,
+    "title": "UI/UX Design Intern",
+    "company": "PixelCraft",
+    "domain": "Design",
+    "location": "Remote",
+    "type": "Part-time",
+    "duration": "2 months",
+    "description": "Create accessible user flows, wireframes and polished interface concepts for web products.",
+    "tags": [
+      "UI",
+      "UX",
+      "Accessibility"
+    ],
+    "applyUrl": "https://example.com"
+  }
+]

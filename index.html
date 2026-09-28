@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Responsive internship listing board with search and domain filters.">
+  <title>Internship Board</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#" aria-label="Internship Board home">
+        <span class="brand-mark">IB</span>
+        <span>Internship Board</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#internships">Internships</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <div class="container">
+        <p class="eyebrow">CAREER OPPORTUNITIES</p>
+        <h1 id="page-title">Find an internship that fits your goals.</h1>
+        <p class="hero-copy">Explore beginner-friendly opportunities across software, AI, data, IoT and more.</p>
+
+        <form id="filters" class="filters" role="search" novalidate>
+          <div class="field search-field">
+            <label for="search">Search internships</label>
+            <input id="search" name="search" type="search"
+                   placeholder="Search by role, company or keyword"
+                   autocomplete="off">
+          </div>
+
+          <div class="field">
+            <label for="domain">Domain</label>
+            <select id="domain" name="domain">
+              <option value="all">All domains</option>
+            </select>
+          </div>
+
+          <button class="clear-button" id="clearFilters" type="button">Clear filters</button>
+        </form>
+
+        <p id="resultCount" class="result-count" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section id="internships" class="board-section" aria-labelledby="board-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">OPEN ROLES</p>
+            <h2 id="board-title">Latest internships</h2>
+          </div>
+        </div>
+
+        <div id="status" class="status" role="status" aria-live="polite" hidden></div>
+        <div id="errorState" class="state-card error-state" role="alert" hidden>
+          <h3>We couldn't load the internships.</h3>
+          <p>Please check the data file and try again.</p>
+          <button id="retryButton" type="button">Try again</button>
+        </div>
+        <div id="emptyState" class="state-card" hidden>
+          <h3>No internships found</h3>
+          <p>Try a different keyword or reset the filters.</p>
+          <button id="emptyClearButton" type="button">Reset filters</button>
+        </div>
+
+        <div id="internshipGrid" class="internship-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section" aria-labelledby="about-title">
+      <div class="container about-card">
+        <p class="eyebrow">ABOUT</p>
+        <h2 id="about-title">Built for accessible internship discovery</h2>
+        <p>This interface uses semantic HTML, responsive CSS and JavaScript DOM rendering without a front-end framework.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Internship Board. Built as a responsive web project.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
