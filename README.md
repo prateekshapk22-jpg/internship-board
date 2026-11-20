@@ -47,6 +47,12 @@ internship-board/
 ├── data/
 │   └── internships.json
 │
+├── screenshots/
+│   ├── 01-homepage.png.png
+│   ├── 02-internship-listings.png.png
+│   ├── 03-search-functionality.png.png
+│   └── 04-domain-filtering.png.png
+│
 ├── index.html
 ├── styles.css
 ├── script.js
@@ -91,7 +97,7 @@ http://localhost:5500
 
 ## GitHub Pages Deployment
 
-The project can be hosted using GitHub Pages.
+The project is hosted using GitHub Pages.
 
 1. Open the repository on GitHub.
 2. Navigate to Settings.
@@ -101,11 +107,7 @@ The project can be hosted using GitHub Pages.
 6. Select the `/ (root)` folder.
 7. Click Save.
 
-The deployed application can be accessed using:
-
-```text
-https://prateekshapk22-jpg.github.io/internship-board/
-```
+**Live Website:** https://prateekshapk22-jpg.github.io/internship-board/
 
 ## Testing Checklist
 
@@ -118,13 +120,25 @@ https://prateekshapk22-jpg.github.io/internship-board/
 - Responsive layouts are checked on different screen sizes.
 - Keyboard navigation and visible focus states work.
 
-## Screenshots
+## Project Screenshots
 
-Screenshots of the following application views can be added:
+The following screenshots demonstrate the main features and functionality of the Responsive Internship Board.
 
-1. Desktop view displaying internship cards.
-2. Search and filtering functionality.
-3. Mobile responsive layout.
+### 1. Homepage
+
+![Homepage](screenshots/01-homepage.png.png)
+
+### 2. Internship Listings
+
+![Internship Listings](screenshots/02-internship-listings.png.png)
+
+### 3. Search Functionality
+
+![Search Functionality](screenshots/03-search-functionality.png.png)
+
+### 4. Domain Filtering
+
+![Domain Filtering](screenshots/04-domain-filtering.png.png)
 
 ## Author
 
