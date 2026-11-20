@@ -1,74 +1,135 @@
 # Responsive Internship Board
 
-A beginner-friendly, framework-free internship listing interface built with semantic HTML, responsive CSS and vanilla JavaScript.
+A responsive, beginner-friendly Internship Board web application developed using **HTML5, CSS3, and Vanilla JavaScript**. The application displays internship opportunities dynamically and allows users to search and filter listings based on different criteria.
+
+## Project Overview
+
+The Responsive Internship Board provides a simple and user-friendly interface for exploring internship opportunities. Internship information is loaded dynamically from a JSON file and displayed as internship cards.
+
+The project demonstrates frontend web development, responsive design, JavaScript DOM manipulation, JSON data handling, search functionality, and filtering.
+
+## Technologies Used
+
+- **HTML5** – Structure of the web application
+- **CSS3** – Styling and responsive layouts
+- **JavaScript** – Dynamic functionality and user interactions
+- **JSON** – Internship data storage
 
 ## Features
 
-- Responsive layout for mobile, tablet and desktop
-- Internship cards rendered dynamically from JSON
-- Search by role, company, location, domain, description and tags
-- Domain filter populated from the data
-- Empty-result state with reset action
-- Error state and retry action when the JSON cannot be loaded
-- Accessible labels, focus states, keyboard-friendly controls and live result updates
-- No front-end framework
+### User Interface
+- Responsive layout for desktop, tablet, and mobile devices
+- Clean and user-friendly interface
+- Dynamically generated internship cards
+- Accessible labels and keyboard-friendly controls
 
-## Project structure
+### Search and Filtering
+- Search internships by role
+- Search by company name
+- Search by location
+- Search by domain, description, and tags
+- Domain-based filtering
+- Empty-result message with reset functionality
+
+### Additional Features
+- Dynamic JSON data loading
+- Error handling when internship data cannot be loaded
+- Retry functionality
+- Visible keyboard focus states
+- Live result updates
+- No frontend framework required
+
+## Project Structure
 
 ```text
 internship-board/
+│
+├── data/
+│   └── internships.json
+│
 ├── index.html
 ├── styles.css
 ├── script.js
-├── data/
-│   └── internships.json
 └── README.md
 ```
 
-## Run locally
+## Installation and Setup
 
-Because the page loads JSON with `fetch()`, use a local web server instead of opening `index.html` directly.
+### 1. Clone the Repository
 
-### Option 1 — VS Code Live Server
-Open the folder in VS Code and start Live Server.
+```bash
+git clone https://github.com/prateekshapk22-jpg/internship-board.git
+```
 
-### Option 2 — Python
-From this folder:
+### 2. Navigate to the Project Directory
+
+```bash
+cd internship-board
+```
+
+### 3. Open the Project
+
+Open the project folder in Visual Studio Code.
+
+### 4. Run the Application
+
+Use the VS Code Live Server extension to launch the application.
+
+Alternatively, run:
 
 ```bash
 python -m http.server 5500
 ```
 
-Then open `http://localhost:5500`.
+Open the following URL in your browser:
 
-## GitHub Pages deployment
+```text
+http://localhost:5500
+```
 
-1. Create a new **public** GitHub repository named `internship-board`.
-2. Upload `index.html`, `styles.css`, `script.js`, `README.md`, and the `data` folder.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)`.
-6. Save and wait for GitHub Pages to publish.
-7. Your proof URL will look like:
-   `https://YOUR-USERNAME.github.io/internship-board/`
+**Note:** A local web server is required because the application loads internship data using JavaScript `fetch()`.
 
-## Submission checklist
+## GitHub Pages Deployment
 
-- [ ] Public GitHub repository
-- [ ] Deployed preview URL
-- [ ] Search works
-- [ ] Domain filter works
-- [ ] Empty state works
-- [ ] Error state/retry works
-- [ ] Keyboard navigation and visible focus work
-- [ ] Mobile/tablet/desktop layouts checked
-- [ ] README updated with screenshots
+The project can be hosted using GitHub Pages.
+
+1. Open the repository on GitHub.
+2. Navigate to Settings.
+3. Select Pages.
+4. Under Build and Deployment, choose Deploy from a branch.
+5. Select the `main` branch.
+6. Select the `/ (root)` folder.
+7. Click Save.
+
+The deployed application can be accessed using:
+
+```text
+https://prateekshapk22-jpg.github.io/internship-board/
+```
+
+## Testing Checklist
+
+- Internship cards load from the JSON file.
+- Search functionality works correctly.
+- Domain filtering works correctly.
+- Empty-result state is displayed when no internships match.
+- Reset functionality works.
+- Error handling and retry functionality work.
+- Responsive layouts are checked on different screen sizes.
+- Keyboard navigation and visible focus states work.
 
 ## Screenshots
 
-Add screenshots of:
-1. Desktop view with several internship cards.
-2. Search/filter result.
-3. Mobile responsive view.
+Screenshots of the following application views can be added:
 
-Place them in an `assets/` folder and update this section with Markdown image references before submission.
+1. Desktop view displaying internship cards.
+2. Search and filtering functionality.
+3. Mobile responsive layout.
+
+## Author
+
+**Prateeksha Prabhu**
+
+B.E. Computer Science and Engineering (IoT)
+
+Sri Krishna College of Engineering and Technology
